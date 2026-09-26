@@ -1,0 +1,26 @@
+@"
+# Large input/intermediate rasters — see README for how to obtain/regenerate
+data/kali44N.tif
+data/kali44N.tif.ovr
+results/dem_filled.tif
+results/flow_direction.tif
+results/flow_accumulation.tif
+results/watershed.tif
+results/kali_gandaki_watershed_v2.tif
+results/stream_network.tif
+results/streams_binary.tif
+notebook\KaliGandaki_Hydropower_Screening.ipynb
+# Python/Jupyter cache
+__pycache__/
+.ipynb_checkpoints/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
+results/figures/contributing_area_histogram.png
+results/figures/loglog_area_vs_count.png
+results/figures/slope_break.png
+results/figures/slope_break_smoothed.png
+results/figures/map2a_flow_direction.png
+results/figures/map2b_flow_accumulation.png
+results/figures/map5_candidate_points.png
+results/figures/map5_candidate_reaches.png
+results/figures/map5_candidate_reaches_v2.png
+results/all_reaches.csv

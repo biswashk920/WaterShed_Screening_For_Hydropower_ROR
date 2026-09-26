@@ -1,0 +1,13 @@
+rasterio
+geopandas
+fiona
+shapely
+pyproj
+gdal
+numpy
+pandas
+matplotlib
+networkx
+scipy
+whitebox
+ipykernel
