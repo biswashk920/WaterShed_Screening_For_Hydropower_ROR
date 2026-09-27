@@ -129,3 +129,7 @@ Place your DEM and pour-point shapefile in `data/`, open `notebook/KaliGandaki_H
 - The multi-scale search is capped at 10 km; a small number of candidates were still improving at that cap, meaning some real opportunities beyond 10 km may exist but go undetected.
 - 6 of 6,296 stream edges did not resolve an ancestor chain during graph traversal (a minor, unexplained edge case affecting <0.1% of the network) — flagged for transparency, not expected to materially affect results.
 - The DEM is derived from SRTM radar interferometry, which has known limitations in steep, high-relief terrain (e.g., radar shadow/layover in narrow gorges, void areas in extreme relief, and vertical accuracy typically cited around ±16 m absolute). These artifacts can affect depression-filling behavior and elevation-drop (ΔZ) calculations at specific reaches, particularly in very steep Himalayan terrain — a known and accepted trade-off of using freely available global DEM data rather than higher-resolution airborne/lidar data.
+
+## Interactive map
+
+An interactive map of the watershed, river network, and final candidate sites is available at `results/candidate_sites_map.html` — clone the repo and open it in a browser, or view it via (https://raw.githack.com/biswashk920/WaterShed_Screening_For_Hydropower_ROR/main/results/candidate_sites_map.html).
