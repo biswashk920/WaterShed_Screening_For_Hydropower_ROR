@@ -4,6 +4,8 @@ A reproducible, three-notebook GIS and hydrology workflow for screening potentia
 
 This is a **screening tool, not a feasibility or engineering study**. Results are locations for further investigation, not confirmed viable hydropower sites.
 
+[Open the interactive candidate-sites map](https://raw.githack.com/biswashk920/WaterShed_Screening_For_Hydropower_ROR/main/results/candidate_sites.html)
+
 ## Workflow
 
 Run the notebooks in order:
