@@ -7,7 +7,11 @@ gdal
 numpy
 pandas
 matplotlib
+Pillow
 networkx
 scipy
 whitebox
 ipykernel
+earthengine-api
+geemap
+folium
