@@ -1,0 +1,43 @@
+ .gitignore                                         |   45 [32m+[m[31m-[m
+ .vscode/settings.json                              |    4 [32m+[m
+ README.md                                          |  184 [32m+[m[31m-[m
+ data/kali44N.tfw                                   |    6 [31m-[m
+ data/kali44N.tif.aux.xml                           |   28 [31m-[m
+ data/kali44N.tif.xml                               |    2 [31m-[m
+ data/kali_pourpoint.CPG                            |    1 [31m-[m
+ data/kali_pourpoint.dbf                            |  Bin [31m110[m -> [32m0[m bytes
+ data/kali_pourpoint.prj                            |    1 [31m-[m
+ data/kali_pourpoint.sbn                            |  Bin [31m148[m -> [32m0[m bytes
+ data/kali_pourpoint.sbx                            |  Bin [31m116[m -> [32m0[m bytes
+ data/kali_pourpoint.shp                            |  Bin [31m128[m -> [32m0[m bytes
+ data/kali_pourpoint.shp.xml                        |    2 [31m-[m
+ data/kali_pourpoint.shx                            |  Bin [31m108[m -> [32m0[m bytes
+ notebook/01_GEE_Data_Acquisation.ipynb             |  632 [32m++++++[m
+ notebook/02_watershedDelineation.ipynb             | 1643 [32m+++++++++++++++[m
+ notebook/03_Hydropower_Screening.ipynb             | 1479 [32m++++++++++++++[m
+ notebook/KaliGandaki_Hydropower_Screening_v2.ipynb | 2133 [31m--------------------[m
+ notebook/helper.py                                 |  600 [32m++++++[m
+ requirements.txt                                   |    6 [32m+[m[31m-[m
+ results/candidate_reaches.csv                      |   25 [32m+[m[31m-[m
+ results/candidate_reaches.gpkg                     |  Bin [31m237568[m -> [32m98304[m bytes
+ results/candidate_sites.html                       | 1043 [32m++++++++++[m
+ results/candidate_sites_map.html                   |  769 [32m+++++[m[31m--[m
+ results/figures/map1_dem_watershed.png             |  Bin [31m870911[m -> [32m884076[m bytes
+ results/figures/map2_flow_accumulation.png         |  Bin [31m1163940[m -> [32m1160343[m bytes
+ results/figures/map3_river_network.png             |  Bin [31m683870[m -> [32m618015[m bytes
+ results/figures/map4_longitudinal_profile.png      |  Bin [31m51912[m -> [32m43651[m bytes
+ results/figures/map5_final_candidates.png          |  Bin [31m1339118[m -> [32m1302674[m bytes
+ results/pourpoint_snapped.dbf                      |  Bin [31m110[m -> [32m0[m bytes
+ results/pourpoint_snapped.prj                      |    1 [31m-[m
+ results/pourpoint_snapped.shp                      |  Bin [31m128[m -> [32m0[m bytes
+ results/pourpoint_snapped.shx                      |  Bin [31m108[m -> [32m0[m bytes
+ results/pourpoint_snapped_v2.dbf                   |  Bin [31m110[m -> [32m0[m bytes
+ results/pourpoint_snapped_v2.prj                   |    1 [31m-[m
+ results/pourpoint_snapped_v2.shp                   |  Bin [31m128[m -> [32m0[m bytes
+ results/pourpoint_snapped_v2.shx                   |  Bin [31m108[m -> [32m0[m bytes
+ results/river_network.gpkg                         |  Bin [31m3035136[m -> [32m2768896[m bytes
+ results/river_points.gpkg                          |  Bin [31m2105344[m -> [32m2138112[m bytes
+ results/stream_network.dbf                         |  Bin [31m113516[m -> [32m0[m bytes
+ results/stream_network.shp                         |  Bin [31m2334972[m -> [32m0[m bytes
+ results/stream_network.shx                         |  Bin [31m50508[m -> [32m0[m bytes
+ 42 files changed, 6119 insertions(+), 2486 deletions(-)
